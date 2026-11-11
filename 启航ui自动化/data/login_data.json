@@ -1,0 +1,26 @@
+[{
+    "account": "admin",
+    "password": "",
+    "expect": "admin"
+  },
+  {
+    "account": "admin",
+    "password": "wrong_password",
+    "expect": "密码错误"
+  },
+  {
+    "account": "admin",
+    "password": "",
+    "expect": "请输入您的密码"
+  },
+  {
+    "account": "admin11",
+    "password": "",
+    "expect": "用户不存在"
+  },
+  {
+    "account": "",
+    "password": "",
+    "expect": "请输入您的账号"
+  }
+]
